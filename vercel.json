@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "simple_app.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "simple_app.py"
+    }
+  ]
+}
